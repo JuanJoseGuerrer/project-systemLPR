@@ -143,10 +143,10 @@ function CameraPanel() {
           <div className={`absolute bottom-5 right-5 w-6 h-6 border-b border-r ${isDark ? 'border-slate-700' : 'border-slate-400'}`} />
 
           <div className="absolute inset-0 flex items-center justify-center">
-            <Car className={`w-28 h-28 ${isDark ? 'text-white/[0.03]' : 'text-slate-900/[0.04]'}`} />
+            <img src='/hero_image.png' alt="Auto detectado" className="w-full h-full object-cover opacity-60"/>
           </div>
 
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48 h-14 border border-accent/50 rounded bg-accent/[0.03]">
+          <div className="absolute top-[62%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-28 h-12 border border-accent/50 rounded bg-accent/[0.03]">
             <div className="absolute -top-px -left-px w-2.5 h-2.5 border-t border-l border-accent" />
             <div className="absolute -top-px -right-px w-2.5 h-2.5 border-t border-r border-accent" />
             <div className="absolute -bottom-px -left-px w-2.5 h-2.5 border-b border-l border-accent" />
